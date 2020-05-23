@@ -7,7 +7,7 @@ for instance in ec2.instances.all():
     print(
         "Id: {0}\nTags: {1}\nType: {2}\nPublic IPv4: {3}\nPrivate IP: {4}\nState: {5}\nSecurity Groups: {6}".format(
             colored(instance.id, 'yellow'), instance.tags, instance.instance_type, instance.public_ip_address, instance.private_ip_address,
-            instance.state, instance.security_groups
+            colored(instance.state, 'cyan'), instance.security_groups
         )
     )
     print(
