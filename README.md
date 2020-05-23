@@ -5,15 +5,14 @@
     
 ### Manage EC2 instance using Python scripts
     
-   -- list-ec2.py  
-   -- reboot-ec2-instance.py   
+   -- list-ec2.py   
    -- resize-ec2-instance.py   
    -- start-ec2-instance.py   
    -- stop-ec2-instance.py    
    -- reboot-ec2-instance.py  
-   -- terminate-ec2.py
+   -- terminate-ec2.py  
    -- create-ec2.py
 
 ### Usage of terminate-ec2
     $ python terminate-ec2.py <instance_id>  
-    
+
