@@ -3,9 +3,9 @@
     
     instances = ['i-xxxxxxxxxxxxxx', 'i-yyyyyyyyyyyyyyyy'] # you may input as many instances in the list
     
-## Manage EC2 instance using Python scrits
+## Manage EC2 instance using Python scripts
     
-   -- list-ec2.py
+   -- list-ec2.py \n
    -- reboot-ec2-instance.py
    -- resize-ec2-instance.py
    -- start-ec2-instance.py
