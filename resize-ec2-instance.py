@@ -1,9 +1,9 @@
 import boto3
 
 print('')
-user_input = input('What\'s the instance_id of the EC2 instance youo want to resize?: ')
+user_input = input('Instance_id to resize: ')
 print('')
-user_input_size = input("What instance size to resize to?: ")
+user_input_size = input("Resize to?: ")
 
 ec2 = boto3.client('ec2')
 

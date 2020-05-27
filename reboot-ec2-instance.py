@@ -1,6 +1,6 @@
 import boto3
 
-user_input = input('What\'s the instance_id of the EC2 instance youo want to reboot?: ')
+user_input = input('Instance_id to reboot: ')
 
 ec2 = boto3.resource('ec2')
 ec2.Instance(user_input).reboot()
